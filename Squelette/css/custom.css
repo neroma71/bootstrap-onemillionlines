@@ -1,9 +1,6 @@
-/* Vos customisations des classes de Bootstrap */
-
-
-
-
-/* Responsive Styling */
+body{
+    background:rgb(41, 41, 41);
+}
 
 @media (max-width: 1199px) {
 
