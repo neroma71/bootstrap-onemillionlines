@@ -31,8 +31,7 @@ modification dans le fichier bootstrap.min.css.
 
 Votre site doit être responsive. Vous devrez redimensionner/replacer certaines choses. Voir les
 [screenshot-min1200.png](https://github.com/simplon-roanne/bootstrap-onemillionlines/blob/master/screenshot-min1200.png), [screenshot-min992.png](https://github.com/simplon-roanne/bootstrap-onemillionlines/blob/master/screenshot-min992.png) et [screenshot-min768.png](https://github.com/simplon-roanne/bootstrap-onemillionlines/blob/master/screenshot-min768.png)
-Pour l’affichage sur smartphone (min-width: 768px), votre barre de navigation ne doit afficher que
-le logo et une icône pour accéder au menu.
+Pour l’affichage sur smartphone (min-width: 768px), votre barre de navigat
 
 Pour afficher les icônes qui ne sont pas présentent dans les images, vous utiliserez Font Awesome
 (http://fortawesome.github.io/Font-Awesome/) qui est déjà intégré au projet.

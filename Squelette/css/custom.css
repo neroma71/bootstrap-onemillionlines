@@ -1,7 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
 body{
-    background:rgb(41, 41, 41);
+    overflow-x:hidden;
 }
-
+.navbar-dark{
+    background-color: black;
+}
+nav ul li{
+    margin-left:50px;
+}
+nav ul li a{
+    color:white;
+}
+nav ul li a{
+    color:white;
+}
+nav ul li a:hover{
+    text-decoration:none;
+    color:grey;
+}
+.nav-link, h1, h2, h3, h4{
+    font-family: Arvo;
+}
+#home{
+    margin-top:-7px;
+    width:100%;
+  
+    background:url(../images/hero-image.jpg)top fixed;
+    background-size:cover;
+}
+h1{
+    margin-top:50px;
+    width:650px;
+    font-family: 'Arvo', serif;
+    color:white;
+    text-align:center;
+    margin-left:50%;
+    transform:translateX(-50%);
+}
+#home p{
+    margin-top:20px;
+    text-align:center;
+    color:white;
+}
+button{
+    margin-left:50%;
+    transform:translateX(-50%);
+}
+#pic{
+    width:50px;
+    height:50px;
+    margin:20px 50%;
+    transform:translateX(-50%);
+}
+#pic img{
+    width:50px;
+    height:50px;
+    object-fit:cover;
+}
+#who{
+    height:300px;
+    width:100%;
+    background:white;
+}
+.pic2{
+    position:relative;
+    width: 100px;
+    height:100px;
+    margin:0 50%;
+    top:30px;
+    transform:translateX(-50%);
+}
+.pic2 img{
+    width:100px;
+    height:100px;
+    object-fit:cover;
+}
+#who h3{
+    width:200px;
+    margin-left:50%;
+    transform:translateX(-50%);
+    font-family: 'Arvo', serif;
+    margin-top:50px;
+    color:rgb(221, 58, 9);
+}
+#who .hr{
+    margin-top:10px;
+    height:2px;
+    width:170px;
+    margin-left:50%;
+    transform:translateX(-50%);
+    background:rgb(221, 58, 9);
+}
+#who p{
+    margin-top:10px;
+    color:black;
+    text-align:center;
+}
+#who p span{
+    color:rgb(221, 58, 9);
+}
+#get-involved{
+    background:lightgray;
+}
+.col-3{
+    width:400px;
+    background:lime;
+}
+.logos{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    margin-left:50%;
+    transform:translateX(-50%);
+    background:black;
+}
+h4{
+    margin-top:15px;
+}
 @media (max-width: 1199px) {
 
 }
