@@ -109,7 +109,7 @@ h3{
 .logos{
     height:50px;
     width:50px;
-    border-radius:50%;
+    border-radius:100%;
     margin-left:50%;
     transform:translateX(-50%);
     background:black;
@@ -132,6 +132,7 @@ h4{
     margin-left:50%;
     transform:translateX(-50%);
     background:white;
+    color:#f74c3c;
 }
 .btn-outline-secondary:hover{
     background:#f74c3c;
@@ -171,14 +172,37 @@ footer{
 }
 
 @media (max-width: 991px) {
-
+    .block p{
+        height:200px;
+    }
 }
 
 @media (max-width: 767px) { 
-    .block{
-        height:400px;
-    }  
-    .block p{
-        height:300px;
+    #who{
+        height:350px;
+        width:100%;
+        background:white;
     }
+    h1{
+        width:90vw;
+    }
+    .block{
+        width:90vw;
+        margin-top:20px;
+    }  
+    .bckt{
+        position:fixed;
+        height:30px;
+        width:30px;
+        border-radius:50%;
+        background:black;
+        top:85VH;
+        left:85vW;
+        cursor:pointer;
+        z-index:10;
+    }
+    .btn-outline-secondary{
+        margin-top:-120px;
+    }
+   
 }
