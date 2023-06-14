@@ -125,6 +125,7 @@ svg{
 }
 h4{
     margin-top:15px;
+    color:#f74c3c;
 }
 .btn-outline-secondary{
     width:150px;
@@ -133,15 +134,37 @@ h4{
     background:white;
 }
 .btn-outline-secondary:hover{
-    background:r#f74c3c;
+    background:#f74c3c;
 }
 footer{
     width:100%;
-    height:250px;
+    height:200px;
     background:#f74c3c;
 }
 .myimg{
-    margin-top:150px;
+    margin-top:100px;
+}
+.bckt{
+    position:fixed;
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    background:black;
+    top:90VH;
+    left:95VW;
+    cursor:pointer;
+    z-index:10;
+}
+.bckt a{
+    display:block;
+    height:30px;
+    width:30px;
+}
+.bckt a svg{
+    margin-top:-10px;
+    margin-left:5px;
+    width:20px;
+    height:20px;
 }
 @media (max-width: 1199px) {
 
@@ -151,8 +174,11 @@ footer{
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) { 
     .block{
         height:400px;
+    }  
+    .block p{
+        height:300px;
     }
 }
