@@ -24,7 +24,6 @@ nav ul li a:hover{
 #home{
     margin-top:-7px;
     width:100%;
-  
     background:url(../images/hero-image.jpg)top fixed;
     background-size:cover;
 }
@@ -42,9 +41,10 @@ h1{
     text-align:center;
     color:white;
 }
-button{
+.btn-danger{
     margin-left:50%;
     transform:translateX(-50%);
+    background:#f74c3c;
 }
 #pic{
     width:50px;
@@ -75,21 +75,22 @@ button{
     height:100px;
     object-fit:cover;
 }
-#who h3{
-    width:200px;
+h3{
+    width:300px;
     margin-left:50%;
     transform:translateX(-50%);
     font-family: 'Arvo', serif;
     margin-top:50px;
-    color:rgb(221, 58, 9);
+    color:#f74c3c;
+    text-align:center;
 }
-#who .hr{
+.hr{
     margin-top:10px;
     height:2px;
     width:170px;
     margin-left:50%;
     transform:translateX(-50%);
-    background:rgb(221, 58, 9);
+    background:#f74c3c;
 }
 #who p{
     margin-top:10px;
@@ -97,14 +98,13 @@ button{
     text-align:center;
 }
 #who p span{
-    color:rgb(221, 58, 9);
+    color:#f74c3c;
 }
 #get-involved{
     background:rgb(231, 231, 231);
 }
-.col-3{
-    width:400px;
-    background:lime;
+.container{
+    width:100%;
 }
 .logos{
     height:50px;
@@ -113,9 +113,35 @@ button{
     margin-left:50%;
     transform:translateX(-50%);
     background:black;
+    overflow:hidden;
+}
+svg{
+    position:relative;
+    fill:white;
+    width:50%;
+    height:50%;
+    left:0;
+    top:20%;
 }
 h4{
     margin-top:15px;
+}
+.btn-outline-secondary{
+    width:150px;
+    margin-left:50%;
+    transform:translateX(-50%);
+    background:white;
+}
+.btn-outline-secondary:hover{
+    background:r#f74c3c;
+}
+footer{
+    width:100%;
+    height:250px;
+    background:#f74c3c;
+}
+.myimg{
+    margin-top:150px;
 }
 @media (max-width: 1199px) {
 
@@ -126,5 +152,7 @@ h4{
 }
 
 @media (max-width: 767px) {
-
+    .block{
+        height:400px;
+    }
 }
